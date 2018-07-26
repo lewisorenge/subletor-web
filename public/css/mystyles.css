@@ -1,0 +1,179 @@
+/*YOUR CUSTOM STYLES*/
+/* 
+* Color: Blue: rgb(58, 123, 134)
+*/
+body, html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    height: auto !important;
+
+}
+
+/* input */
+input .bootstrap-timepicker-meridian {
+  width: 40px !important;
+  padding: 5px !important;
+}
+
+
+
+/* Navbar */
+.nav-drop > .nav-drop-menu {
+    min-width: 150px;
+}
+.nav-drop > .nav-drop-menu > li > a {
+    background: #fff;
+    color: rgb(31, 31, 31);
+    border-bottom: 1px solid #eeeeee;
+}
+.nav-drop > .nav-drop-menu > li:first-child > a:before {
+    border-color: transparent transparent #fff transparent;
+  }
+.top-user-area {
+    font-size: 100%;
+}
+
+/* Upload Office form */
+#regForm {
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: Raleway;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center;  
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+ 
+  
+  .btn1 {
+    border: 2px solid #3a7b86;
+    color: #3a7b86;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: #3a7b86;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #3a7b86;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #3a7b86;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #3a7b86;
+  }
+  .gallery{
+    width: 200px;
+   }
+
+
+   /* Office */
+   /* .booking-item-price, .booking-item-price-duration {
+     display: block;
+     font-size: 30px;
+   } */
+
+   .navbar-default{
+     background-color: #fff;
+     border-color: transparent;
+   }
+
+   .header-top {
+     background-color: #fff;
+   }
+   
+   .vertical-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .vertical-align p{
+    padding: 0 0 0 20px;
+  }
+
+  .payment-logo{
+    height: 2rem;
+    width: auto;
+  }
+  .panel-title > a {
+    padding: 5px 30px 5px 10px;
+  }
+
+
+.panel-group .panel {
+  padding: 10px;
+}
+
+/**
+*/
+.navbar{
+  border-radius: 0;
+}
+
+.navbar-inverse{
+  border-color: transparent;
+}
+.navbar-inverse .navbar-form{
+  border-color: transparent !important;
+}
+
+.navbar-form{
+  box-shadow: transparent;
+  -webkit-box-shadow: inset 0 1px 0 transparent, 0 1px 0 transparent;
+}
